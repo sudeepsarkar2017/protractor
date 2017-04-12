@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1487677455302" stop="1487677455758">
+	<name>angularjs homepage todo list</name>
+	<title>angularjs homepage todo list</title>
+	<test-cases>
+		<test-case start="1487677455302" stop="1487677455758" status="failed">
+			<name>test script</name>
+			<title>test script</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: Error: Permission denied to access property &quot;href&quot;</message>
+				<stack-trace>JavascriptError: Error: Permission denied to access property &quot;href&quot;
+    at WebDriverError (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:27:5)
+    at JavascriptError (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:133:5)
+    at Object.throwDecodedError (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:477:11)
+    at parseHttpResponse (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:499:15)
+    at doSend.then.response (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:440:13)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Protractor.get(http://www.way2automation.com/angularjs-protractor/registeration/#/login) - get url
+    at Driver.schedule (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:816:17)
+    at ProtractorBrowser.executeScriptWithDescription (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\lib\browser.ts:586:24)
+    at driver.wait (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\lib\browser.ts:900:25)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:947:14
+    at TaskQueue.execute_ (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+From: Task: &lt;anonymous&gt;
+    at Timeout.pollCondition [as _onTimeout] (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2101:19)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+From: Task: waiting for page to load for 10000ms
+    at scheduleWait (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2094:20)
+    at ControlFlow.wait (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2408:12)
+    at Driver.wait (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:943:29)
+    at driver.controlFlow.execute.then.then.then.then (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\lib\browser.ts:899:30)
+    at ManagedPromise.invokeCallback_ (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;test script&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attemptAsync (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1980:24)
+    at QueueRunner.run (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1935:9)
+    at QueueRunner.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1923:10)
+    at Spec.queueRunnerFactory (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:714:35)
+    at Spec.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:371:10)
+    at Object.fn (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2579:37)
+    at attemptAsync (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1980:24)
+    at QueueRunner.run (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1935:9)
+    at QueueRunner.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1923:10)
+    at queueRunnerFactory (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:714:35)
+    at Object.fn (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2564:13)
+    at attemptAsync (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1980:24)
+    at QueueRunner.run (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1935:9)
+    at QueueRunner.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1923:10)
+    at queueRunnerFactory (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:714:35)
+    at TreeProcessor.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2426:7)
+    at Env.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:776:17)
+    at Jasmine.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:184:12)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+    at Function.promise (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+    at _fulfilled (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:796:13)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:137:13)
+    at flush (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (D:\protractor\practice\firstTest.js:26:5)
+    at addSpecsToSuite (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:867:25)
+    at Env.describe (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:836:7)
+    at describe (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3576:18)
+    at Object.&lt;anonymous&gt; (D:\protractor\practice\firstTest.js:1:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (C:\node_modules\coffee-script\lib\coffee-script\register.js:45:36)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:87:5
+    at Array.forEach (native)
+    at Jasmine.loadSpecs (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:86:18)
+    at Jasmine.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:181:8)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+    at Function.promise (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+    at _fulfilled (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:796:13)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:137:13)
+    at flush (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

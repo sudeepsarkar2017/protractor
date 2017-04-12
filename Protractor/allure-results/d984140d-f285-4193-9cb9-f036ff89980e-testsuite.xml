@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1491993037436" stop="1491993066699">
+	<name>testGmail</name>
+	<title>testGmail</title>
+	<test-cases>
+		<test-case start="1491993037436" stop="1491993051858" status="passed">
+			<name>validate user credential</name>
+			<title>validate user credential</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1491993051858" stop="1491993066699" status="passed">
+			<name>validate user credential</name>
+			<title>validate user credential</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

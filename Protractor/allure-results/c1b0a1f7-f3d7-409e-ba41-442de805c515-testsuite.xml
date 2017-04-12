@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1491915413880" stop="1491915418527">
+	<name>gmail login</name>
+	<title>gmail login</title>
+	<test-cases>
+		<test-case start="1491915413880" stop="1491915418526" status="failed">
+			<name>encountered a declaration exception</name>
+			<title>encountered a declaration exception</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>ReferenceError: using is not defined</message>
+				<stack-trace>ReferenceError: using is not defined
+    at Suite.&lt;anonymous&gt; (D:\protractor\practice\gmailLogin.js:12:5)
+    at addSpecsToSuite (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:867:25)
+    at Env.describe (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:836:7)
+    at describe (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3576:18)
+    at Object.&lt;anonymous&gt; (D:\protractor\practice\gmailLogin.js:4:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (C:\node_modules\coffee-script\lib\coffee-script\register.js:45:36)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:87:5
+    at Array.forEach (native)
+    at Jasmine.loadSpecs (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:86:18)
+    at Jasmine.execute (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:181:8)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+    at Function.promise (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+    at _fulfilled (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:796:13)
+    at C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:137:13)
+    at flush (C:\Users\thinksysuser\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
